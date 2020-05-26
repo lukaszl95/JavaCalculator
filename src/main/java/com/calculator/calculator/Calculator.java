@@ -2,15 +2,15 @@ package com.calculator.calculator;
 
 public class Calculator {
 
-    public void suma(){
-        System.out.println("Suma");
+    public void add(int a, int b){
+        System.out.println(a + b);
     }
-    public void odejmowanie(){
-        System.out.println("Odejmowanie");
+    public void sub(int a, int b){
+        System.out.println(a - b);
     }
     public static void main(String args[]){
         Calculator calculator = new Calculator();
-        calculator.suma();
-        calculator.odejmowanie();
+        calculator.add(1,2);
+        calculator.sub(2,1);
     }
 }
